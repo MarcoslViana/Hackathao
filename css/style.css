@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.headline {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    background: #f15115;
+    color: #eee;
+    height: 80px;
+    /* position: fixed; */
+}
+
+#navbar-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+/* First Section */
+#fisrt-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background: url(../img/Chamada.png) no-repeat center center/cover;
+
+    /* Overlay */
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: color;
+}
+
+/* Whats Hackathão */
+#whats {
+    width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 50px;
+}
+
+#whats-container {
+    display: grid;
+    text-align: justify;
+    justify-items: center;
+    padding: 15px;
+}
+
+/* Iformation */
+#information {
+    width: 100%;
+    background: #f15115;
+    color: black;
+    padding: 50px;
+}
+
+#information-container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.information-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Subscribe */
+#subscribe {
+    width: 100%;
+    padding: 50px;
+    background: white;
+}
+
+#subscribe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#subscribe-container h2{
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#subscribe-container > a > button{
+    background-color: #f15115;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 15px;
+    text-align: center;
+    width: 300px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#subscribe-container > a > button:hover{
+    cursor: pointer;
+    background-color: #974a2e;
+    border: 1px solid transparent;
+    border-color: white;
+}
+
+/* Questions */
+.questions {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #eee;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+
+#questions {
+    width: 100%;
+    background: #c6c6c6;
+    color: black;
+    padding: 50px;
+}
+
+.questions > details > summary{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    padding-top: 20px;
+}
+
+.organization{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.left{
+    text-align: center;
+}
+
+.right{
+    text-align: center;
+}
+
+.left p{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.right p{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 20px;
+    
+}
+
+/* Footer */
+#footer {
+    background: #f15115;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}

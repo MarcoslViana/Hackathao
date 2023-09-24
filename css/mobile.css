@@ -1,0 +1,58 @@
+#navbar {
+    height: 80px;
+}
+
+/* #navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+} */
+
+/* #navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+} */
+
+/* #navbar-items li:nth-child(2) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+} */
+
+
+/* Showcase */
+#fisrt-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    background: url(../img/Chamada-mobile2.png) no-repeat center center/cover;
+    background-size: auto; /* Mantém o tamanho original da imagem */
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: color;
+}
+
+/* Whats Hackathão */
+#whats-container {
+    text-align: left;
+}
+
+/* Information */
+#information-container {
+    grid-template-columns: 1fr;
+}
+
+#information-container .information:nth-child(2) {
+    margin: 15px 0;
+}
+
+/* Subscribe */
+#subscribe-container {
+    flex-direction: column;
+}
+
+/* Questions */
+.questions {
+    flex-direction: column;
+    text-align: center;
+}
