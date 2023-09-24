@@ -78,7 +78,7 @@ a {
 /* Iformation */
 #information {
     width: 100%;
-    background: #f15115;
+    background: #eee;
     color: black;
     padding: 50px;
 }
@@ -94,7 +94,7 @@ a {
 .information {
     display: flex;
     flex-direction: column;
-    background: #eee;
+    background: white;
     padding: 20px;
     border-radius: 5px;
 }
@@ -140,6 +140,18 @@ a {
     background-color: #974a2e;
     border: 1px solid transparent;
     border-color: white;
+}
+
+#atencao{
+    font-size: 20px;
+}
+
+#regulamento {
+    color: blue;
+}
+
+#regulamento:hover {
+    text-decoration: underline;
 }
 
 /* Questions */
