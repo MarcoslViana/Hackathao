@@ -196,6 +196,11 @@ p{
     text-align: center;
 }
 
+#am3{
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+
 .left p{
     font-weight: bold;
     font-size: 25px;
